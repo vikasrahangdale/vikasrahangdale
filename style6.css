@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#vv{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    font-family: Beyond Wonderland ;
+    
+}
+#aa{
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    background-size: cover;
+    left: 30%;
+   
+}
+#aa1{
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    top: 50%;
+    background-size: cover;
+    left: 70%;
+    
+
+}
+img{
+
+    height: 50%;
+    left: 50%;
+    top: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+box-shadow: 0 20px 20px  black;
+}
+
+img:hover{
+    transform: translate(-50%,-59%) scale(1.2);
+    height: 70%;
+}

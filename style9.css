@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 20px;
+    width: 100%;
+    background-color: #1b1b1b;
+
+}
+#top{
+    width: 100%;
+    height: 100%;
+}#wp{
+    
+    width: 100%;
+    height: 100%; 
+
+
+}
+
+
+ #nav{
+    color: white;
+    font-size: 14px;
+    font-weight: 3; 
+    transform: translate(-50%,50);
+    transition: all ease 0.5s; 
+} 
+#nav h4:hover{
+    transform: translate(-50%,50);
+    color: crimson;
+}
+
+
+ i{
+    color: #fff;
+}
+#top{
+     
+    width: 100%;
+    height: 100%;
+
+
+}
+div{
+    height: 50px;
+    width: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+     gap: 40px;
+}
+#one{
+
+    color: rgb(252, 252, 252);
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 50px;
+    font-family: Arial;
+}
+#two{
+    position: absolute;
+    left: 40%;
+    top: 29%;
+    text-align: center;
+    color: #fff;
+}
+#thre{
+    position: absolute;
+    left: 40%;
+    top: 32%;
+    color: blue;
+    
+}
+#four{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    color: rgb(19, 19, 203);
+}
+#wp{
+    height: 100%;
+    width: 100%;
+}
+#rv{
+    position: absolute;
+    left: 6%;
+    top: 108%;
+    color: #fff;
+    font-size: 50px;
+}
+#tr{
+    position: absolute;
+    top: 130%;
+    color: #fff;
+    left: 5%;
+    font-size: 20px ;
+}
+  

@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/emerald-green-curve-frame-template_53876-99027.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#nav{
+   height: 100px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 100px;
+   background-color: #fff;
+   
+}
+#nav img{
+  height: 85%;
+  
+}
+#nav h1{
+    position: absolute;
+    left: 13%;
+    color: #424040;
+}
+#navleft a{
+         text-decoration: none;
+         color: black;
+         font-size: 13px;
+         margin: 0 20px;
+         font-weight: 550;
+         position: relative;
+}
+#navleft a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #383737;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: all ease 0.5s;
+}
+#navleft a:hover::after{
+    width: 100%;
+    
+}
+
+#navright a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    position: relative;
+    font-size: 13px;
+}
+#navright a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #383737;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: all ease 0.5s;
+}
+#navright a:hover::after{
+    width: 100%;
+}
+#navright i{
+    font-size: 20px;
+    margin-left: 15px;
+    padding-left: 20px;
+    transform: translate(-50%.50);
+    transition: all ease 0.5;
+}
+#navright i:hover{
+    transform: translate(-50%.50);
+    color: #383737;
+}
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+#end a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+#side{
+    font-weight: 600;
+    padding-left: 40px;
+
+}
+#font{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+#font h1{
+    font-size: 45px;
+    font-weight: 650;
+    color: #000;
+}
+#font p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #000;
+}
+#font button{
+    margin-top: 20px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgb(0, 85, 255);
+    color: #fff;
+    transform: translate(-50%,50);
+    transition: all ease 0.5s;
+}
+#font button:hover{
+    transform: translate(-50%,50);
+    background-color: #000;
+    color: #fff;
+}
+#side1{
+    margin-top: -54px;
+    margin-left: 180px;
+}
+#main2{
+    height: 100%;
+    width: 100vh;
+    background-color: aquamarine;
+}
